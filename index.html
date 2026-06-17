@@ -3,73 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Website</title>
+    <title>My Web Development Space</title>
     <style>
         /* Base Styles */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f6f8;
-            color: #333;
+            background-color: #f0f4f8; /* Soft, cool background grey */
+            color: #2d3748; /* Deep slate gray for text readability */
             display: flex;
             flex-direction: column;
             align-items: center;
         }
 
-        /* Header Style (Green Section from Screenshot) */
+        /* Header Style (New Dark Slate Blue Banner) */
         header {
-            background-color: #04aa6d; /* The exact W3Schools green style */
-            color: white;
+            background-color: #1a365d; /* Deep royal/slate blue */
+            color: #ffffff;
             width: 100%;
             max-width: 600px;
             text-align: center;
-            padding: 40px 20px;
+            padding: 45px 20px;
             box-sizing: border-box;
+            border-bottom: 5px solid #ff6b6b; /* Vibrant coral accent line */
         }
 
         header h1 {
             margin: 0 0 10px 0;
-            font-size: 2.5rem;
+            font-size: 2.3rem;
+            letter-spacing: 0.5px;
         }
 
         header p {
             margin: 0;
-            opacity: 0.9;
+            font-size: 1.1rem;
+            opacity: 0.85;
         }
 
         /* Main Content Container */
         main {
             width: 100%;
             max-width: 600px;
-            padding: 20px;
+            padding: 25px 20px;
             box-sizing: border-box;
         }
 
-        /* Section Cards (About Me & Projects) */
+        /* Section Cards */
         section {
-            background: white;
-            margin-bottom: 20px;
+            background: #ffffff;
+            margin-bottom: 25px;
             padding: 25px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            border-radius: 12px; /* Slightly rounder, more modern corners */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Softer shadow */
         }
 
         section h2 {
-            color: #04aa6d;
+            color: #1a365d; /* Matches the header blue */
             margin-top: 0;
-            border-bottom: 2px solid #f4f6f8;
-            padding-bottom: 8px;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 10px;
+            font-size: 1.4rem;
         }
 
-        /* Projects List */
+        /* Text adjustments */
+        p {
+            line-height: 1.6;
+            font-size: 1rem;
+        }
+
+        /* Custom styled lists */
         ul {
-            padding-left: 20px;
+            padding-left: 0;
+            list-style: none; /* Removes standard bullet points */
         }
 
         li {
-            margin-bottom: 10px;
-            color: #555;
+            margin-bottom: 12px;
+            color: #4a5568;
+            position: relative;
+            padding-left: 25px;
+        }
+
+        /* Custom coral indicator for list items */
+        li::before {
+            content: "✦";
+            position: absolute;
+            left: 0;
+            color: #ff6b6b; /* Coral accent */
+            font-weight: bold;
         }
 
         /* Footer Style */
@@ -78,35 +100,42 @@
             max-width: 600px;
             text-align: center;
             padding: 20px;
-            color: #777;
-            font-size: 0.9rem;
+            color: #a0aec0;
+            font-size: 0.85rem;
         }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Hello, LinkedIn!</h1>
-        <p>This site is built with HTML and CSS.</p>
+        <h1>Welcome to My Space! ✨</h1>
+        <p>Documenting my growth in frontend development.</p>
     </header>
 
     <main>
         <section>
-            <h2>About Me</h2>
-            <p>I am sharpening my web development skills. This is my very first webpage in a long time, and I am excitingly deepening my HTML & CSS foundations to grow as a developer.</p>
+            <h2>The Journey So Far</h2>
+            <p>I am currently diving back into web development to polish my foundations, master layout structures, and write cleaner code. Returning to these core concepts is helping me build the exact momentum I need to tackle advanced interfaces later on.</p>
         </section>
 
         <section>
-            <h2>Projects</h2>
+            <h2>Current Milestones</h2>
             <ul>
-                <li>Portfolio landing page</li>
-                <li>Product showcase</li>
-                <li>Responsive blog layout</li>
+                <li>Mastering semantic structural tags</li>
+                <li>Structuring responsive layouts</li>
+                <li>Organizing clean, scalable CSS styling</li>
+                <li>Publishing projects live via GitHub Pages</li>
             </ul>
         </section>
     </main>
 
     <footer>
+        <p>Designed with purpose • Driven by consistency</p>
+    </footer>
+
+</body>
+                                                          </html>
+<footer>
         <p>Built with ♥ using HTML & CSS.</p>
     </footer>
 
