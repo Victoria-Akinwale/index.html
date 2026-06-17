@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <style>
+        /* Base Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f6f8;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Header Style (Green Section from Screenshot) */
+        header {
+            background-color: #04aa6d; /* The exact W3Schools green style */
+            color: white;
+            width: 100%;
+            max-width: 600px;
+            text-align: center;
+            padding: 40px 20px;
+            box-sizing: border-box;
+        }
+
+        header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 0;
+            opacity: 0.9;
+        }
+
+        /* Main Content Container */
+        main {
+            width: 100%;
+            max-width: 600px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        /* Section Cards (About Me & Projects) */
+        section {
+            background: white;
+            margin-bottom: 20px;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        section h2 {
+            color: #04aa6d;
+            margin-top: 0;
+            border-bottom: 2px solid #f4f6f8;
+            padding-bottom: 8px;
+        }
+
+        /* Projects List */
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        /* Footer Style */
+        footer {
+            width: 100%;
+            max-width: 600px;
+            text-align: center;
+            padding: 20px;
+            color: #777;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Hello, LinkedIn!</h1>
+        <p>This site is built with HTML and CSS.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>I am sharpening my web development skills. This is my very first webpage in a long time, and I am excitingly deepening my HTML & CSS foundations to grow as a developer.</p>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <ul>
+                <li>Portfolio landing page</li>
+                <li>Product showcase</li>
+                <li>Responsive blog layout</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Built with ♥ using HTML & CSS.</p>
+    </footer>
+
+</body>
+</html>
+
